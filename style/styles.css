@@ -82,3 +82,60 @@ button:hover {
     font-size: 18px;
     color: #f9faf8;
 }
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.illustrations {
+    display: flex;
+    gap: 50px;
+    padding-top: 50px;
+}
+
+.pairs {
+    display: flex;
+    flex-direction: column;
+}
+.pairs img {
+    width: 200px;
+    height: auto;
+}
+
+.pairs .subtext {
+    max-width: 200px;
+    word-wrap: break-word;
+}
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    color: #1f2937;
+    max-width: 900px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.author {
+    display: flex;
+    flex-direction: row-reverse;
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+}
