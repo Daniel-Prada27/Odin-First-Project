@@ -183,3 +183,12 @@ button:hover {
     /* background-color: #286ddb; */
     border: 2px solid rgb(250, 204, 204);
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 30px;
+}
