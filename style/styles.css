@@ -139,3 +139,47 @@ button:hover {
     font-weight: bold;
     font-size: 20px;
 }
+
+
+.call-to-action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.call-container {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 50px;
+    border-radius: 10px;
+    /* gap: 90px; */
+}
+
+.call-text {
+    color: white;
+}
+
+#action-call {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.call-container button {
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+}
+
+.call-container button:hover {
+    /* background-color: #286ddb; */
+    border: 2px solid rgb(250, 204, 204);
+}
